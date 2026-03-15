@@ -23,6 +23,6 @@ help_text = """
 
 """
 
-def print_help():
+def display_help():
     print(help_text)
 

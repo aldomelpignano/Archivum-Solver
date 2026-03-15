@@ -49,11 +49,11 @@ def display_ascii():
     
     ##############################################################################################################################################################""")
 
-def display_author_info():
+def display_info():
     """Displays author and tool information."""
 
     tool_name = "Archivum Solver"
-    version = "v1.0"
+    version = "v0.1-dev"
     author = "Aldo Daniele Melpignano"
     github = "https://github.com/aldomelpignano/Archivum-Solver"    
 
@@ -63,6 +63,8 @@ def display_author_info():
     #   Author  : {author}
     #   GitHub  : {github}
     #
+
+    Type 'help' to get a list of commands.
     """)
 
 # =========================================
@@ -76,5 +78,5 @@ def display_banner():
     set_color("LIGHT_GREEN")
     display_ascii()
     set_color("GREEN")
-    display_author_info()
+    display_info()
     reset_color()
